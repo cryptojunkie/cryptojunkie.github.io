@@ -1,1 +1,10 @@
-{"alerts":[{"avatar":"https://i.cubeupload.com/mdv2vm.jpg","message":"Bitcoin is heading to the 🚀🚀🚀"},{"avatar":"https://i.cubeupload.com/mdv2vm.jpg","message":"We just launched! Please follow us on twitter <a href='https://twitter.com/@cryptojunkieapp' target='_blank'>@cryptojunkieapp</a>"}]}
+[
+  {
+    "avatar": "https://i.cubeupload.com/mdv2vm.jpg",
+    "message": "Bitcoin is heading to the 🚀🚀🚀"
+  },
+  {
+    "avatar": "https://i.cubeupload.com/mdv2vm.jpg",
+    "message": "We just launched! Please follow us on twitter <a href='https://twitter.com/@cryptojunkieapp' target='_blank'>@cryptojunkieapp</a>"
+  }
+]
