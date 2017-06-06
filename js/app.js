@@ -10,7 +10,6 @@ $(function() {
   }
 
   $('.install, .try-again').click(function(e) {
-    console.log('dsfsdf');
     chrome.webstore.install(appUrl, installed, failed);
   });
 
