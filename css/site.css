@@ -3,18 +3,23 @@
 }
 
 html, body {
-  height: 100%;
   text-align: center;
   font-family: sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
 
 body {
   background: #fff;
   transition: all 0.3s ease;
+}
+
+.logo {
+  margin-bottom: 20px;
 }
 
 .button {
@@ -31,7 +36,7 @@ body {
   letter-spacing: 1px;
   text-align: center;
   transition: all 0.3s ease;
-  padding: 18px;
+  padding: 16px;
 }
 
 .button:hover {
@@ -52,3 +57,9 @@ body {
   font-size: 14px;
   color: rgb(176, 37, 37);
 }
+
+.main-text {
+  margin: auto;
+  width: 800px;
+}
+
