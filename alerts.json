@@ -5,6 +5,14 @@
   },
   {
     "avatar": "https://pbs.twimg.com/profile_images/867128943509479424/prQcsyxK.jpg",
-    "message": "Just launched this project! Please follow on twitter <a href='https://twitter.com/@cryptojunkieapp' target='_blank'>@cryptojunkieapp</a>"
+    "message": "<b>Tip:</b> When you see 🔥 next to a ticker price, it means the coin is <b>up</b> over 10% in the past 24h"
+  },
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/867128943509479424/prQcsyxK.jpg",
+    "message": "<b>Tip:</b> When you see 🌨️ next to a ticker price, it means the coin is <b>down</b> over 10% in the past 24h"
+  },
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/867128943509479424/prQcsyxK.jpg",
+    "message": "🔥Just launched this project! Please follow on twitter <a href='https://twitter.com/@cryptojunkieapp' target='_blank'>@cryptojunkieapp</a>"
   }
 ]
