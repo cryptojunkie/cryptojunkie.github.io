@@ -42,6 +42,9 @@
     "url": "https://trends.google.com/trends/explore?q=ethereum"
   },
   {
+    "url": "https://trends.google.com/trends/explore?q=bitcoin,ethereum"
+  },
+  {
     "url": "https://coin.dance/volume/localbitcoins"
   },
   {
