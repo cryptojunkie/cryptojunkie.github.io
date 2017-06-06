@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+.button {
+  margin: auto;
+  background: #fff;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #252525;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  width: 150px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: all 0.3s ease;
+  padding: 18px;
+}
+
+.button:hover {
+  color: #000;
+  border-color: #000;
+}
+
+.hidden {
+  display: none;
+}
+
+.get-chrome {
+  text-align: center;
+  margin: auto;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 14px;
+  color: rgb(176, 37, 37);
+}
