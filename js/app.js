@@ -1,4 +1,4 @@
-var appUrl = 'https://chrome.google.com/webstore/detail/cryptojunkie/cpgjdheihpmldnkbbonjjlebkacaeecg';
+var appUrl = 'https://chrome.google.com/webstore/detail/cpgjdheihpmldnkbbonjjlebkacaeecg';
 
 $(function() {
 
