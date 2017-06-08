@@ -18,6 +18,5 @@ $(function() {
   }
 
   function failed(error) {
-    alert("Something went wrong, plesae try again.");
   }
 });
