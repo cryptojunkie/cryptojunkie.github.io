@@ -6,10 +6,10 @@ $(function() {
 
   if(!$.browser.chrome || !$.browser.desktop){
     $('.install').hide();
-    $('.get-chrome').show();
+    $('.reminder').show();
   }
 
-  $('.install, .try-again').click(function(e) {
+  $('.install, .install1').click(function(e) {
     chrome.webstore.install(appUrl, installed, failed);
   });
 
