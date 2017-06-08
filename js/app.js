@@ -6,7 +6,7 @@ $(function() {
 
   if(!$.browser.chrome || !$.browser.desktop){
     $('.install').hide();
-    $('.reminder').show();
+    $('.reminder').removeClass('hide');
   }
 
   $('.install, .install1').click(function(e) {
