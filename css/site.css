@@ -123,6 +123,10 @@ body {
   height: 80px;
 }
 
+.hide {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .main-text {
         width: 100%;
