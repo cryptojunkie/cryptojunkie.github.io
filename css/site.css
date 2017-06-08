@@ -113,8 +113,26 @@ body {
   width: 800px;
 }
 
+.share {
+  border: solid 1px #ccc; 
+  margin: 6px auto; 
+  text-align: left; 
+  font-size: 15px; 
+  width: 400px; 
+  padding: 10px; 
+  height: 80px;
+}
+
 @media only screen and (max-width: 600px) {
     .main-text {
         width: 100%;
+    }
+  
+    .install1 {
+      width: 100%;
+    }
+  
+    .share {
+      width: 90%;
     }
 }
