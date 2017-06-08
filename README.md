@@ -4,4 +4,4 @@ Each time you open a new tab you'll see: trading tips, news on upcoming ICOs, pr
 
 <a href="http://cryptojunkie.io"><b>Try it here</b></a>
 
-<img src="https://github.com/cryptojunkie/cryptojunkie.github.io/blob/master/d.gif?raw=true" />
+<img src="https://github.com/cryptojunkie/cryptojunkie.github.io/blob/master/d.gif" />
