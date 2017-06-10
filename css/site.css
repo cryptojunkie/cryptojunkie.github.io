@@ -112,6 +112,7 @@ body {
 .main-text {
   margin: auto;
   padding-top: 60px;
+  padding-bottom: 100px;
   width: 800px;
 }
 
