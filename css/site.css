@@ -112,7 +112,6 @@ body {
 .main-text {
   margin: auto;
   padding-top: 60px;
-  padding-bottom: 100px;
   width: 800px;
 }
 
@@ -124,6 +123,7 @@ body {
   width: 400px; 
   padding: 10px; 
   height: 80px;
+  margin-bottom: 100px;
 }
 
 .hide {
