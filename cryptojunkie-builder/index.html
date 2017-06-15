@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CryptoJunkie builder</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/underscore-min.js"></script>
+  <script src="js/app.js"></script>
+</head>
+
+<body> 
+  <div class="wrapper">
+    Data: 
+    <select id="type" class="js-data-source" style="margin: 15px 0">
+      <option value="links">Links</option>
+      <option value="alerts">Alerts</option>
+    </select>
+
+    <div class="links js-links">
+      <table>
+        <tr>
+          <td style="border-bottom: 0;">
+            <input type="text" class="js-new-link" placeholder="Add a link..." style="font-size: 14px; padding: 6px; width: 350px" />
+            <button class="js-add-link">Add</button>
+          </td>
+        </tr>
+      </table>
+      
+      <table class="grid js-grid"></table>
+      <br /><br />
+      <b>JSON Output</b><br />
+      <textarea class="output js-output"></textarea>
+    </div>
+  </div>
+
+</body>
+</html>

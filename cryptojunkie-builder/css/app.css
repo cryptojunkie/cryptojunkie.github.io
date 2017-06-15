@@ -1,0 +1,62 @@
+html,body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background: #fff;
+  padding-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #000;
+}
+
+table {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  text-align: left;
+  width: 100%;
+}
+
+table tr {
+}
+
+table tr td {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 18px;
+  word-wrap: break-word;
+}
+
+label {
+  cursor: pointer;
+}
+
+.output {
+  height: 400px;
+  width: 100%;
+}
+
+.address {
+  background: #000;
+  box-sizing:border-box; 
+  bottom: 0;
+  color: #fff;
+  position: absolute;
+  font-size: 12px;
+  min-height: 16px;
+  height: auto;
+  padding: 4px;
+  width: 100%;
+  word-wrap: break-word;
+}
