@@ -18,11 +18,11 @@
     </select>
 
     <div class="links js-links">
-      <table>
+      <table style="background: #f1f1f1">
         <tr>
           <td style="border-bottom: 0;">
-            <input type="text" class="js-new-link" placeholder="Add a link..." autofocus="autofocus" style="font-size: 14px; padding: 6px; width: 350px" />
-            <input type="text" class="js-new-audio" placeholder="🎵 Add audio URL (optional)..." style="font-size: 14px; padding: 6px; width: 350px" />
+            <input type="text" class="js-new-link" placeholder="🔗 Add a link..." autofocus="autofocus" style="font-size: 14px; padding: 6px; width: 350px" />
+            <input type="text" class="js-new-audio" placeholder="🎵 Include an audio URL (optional)..." style="font-size: 14px; padding: 6px; width: 350px" />
             <button class="js-add-link">Add</button>
           </td>
         </tr>
@@ -30,8 +30,10 @@
       
       <table class="grid js-grid"></table>
       <br /><br />
-      <b>JSON Output</b><br />
-      <textarea class="output js-output"></textarea>
+      <div style="margin-left: 20px">
+        <b>JSON Output</b><br />
+        <textarea class="output js-output"></textarea>
+      </div>
     </div>
   </div>
 
