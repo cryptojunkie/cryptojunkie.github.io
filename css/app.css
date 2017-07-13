@@ -249,8 +249,4 @@ table td {
   .crypto-prices {
     overflow: scroll;
   }
-
-  .crypto-prices a {
-    float: right;
-  }
 }
