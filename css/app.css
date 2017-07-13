@@ -242,6 +242,7 @@ table td {
   }
 
   .link {
+    border: solid 5px #000;
     max-height: 720px;
   }
 }
