@@ -245,4 +245,12 @@ table td {
     border: solid 5px #000;
     max-height: 720px;
   }
+
+  .crypto-prices {
+    overflow: scroll;
+  }
+
+  .crypto-prices a {
+    float: right;
+  }
 }
