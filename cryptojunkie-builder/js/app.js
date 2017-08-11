@@ -1,6 +1,6 @@
 var alertApi = "http://cryptojunkie.io/alerts.json";
 var linkApi = "http://cryptojunkie.io/links.json";
-var imageUrl = "http://api.screenshotlayer.com/api/capture?access_key=72cfbd767bdf2b0a7a26dc1b6ace791f&viewport=1280x1024&width=1280&fullpage=1&delay=5&ttl=604800&url=";
+var imageUrl = "http://api.screenshotlayer.com/api/capture?access_key=15a0f0c4376fc86b18a4c98b74667447&viewport=1280x1024&width=1280&fullpage=1&delay=5&ttl=604800&url=";
 var tmpLinks = [];
 var tmpAlerts = [];
 
