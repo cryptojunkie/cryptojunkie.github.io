@@ -35,7 +35,7 @@ $(function() {
     req.addEventListener('load', onLoad);
     req.addEventListener('error', onFail);
     req.addEventListener('abort', onFail);
-    req.open('GET', url);
+    req.open('GET', url + '?q=' + Math.random());
     req.send();
 
     function onLoad(event) {
