@@ -3,82 +3,37 @@
 }
 
 html, body {
+  color: #fff;
   text-align: center;
-  font-family: sans-serif;
-  background: #000;
-  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
   text-decoration: none;
-  color: #000;
   font-weight: bold;
+  color: #fff;
 }
 
 body {
-  background: #fff;
+  background: #000;
   transition: all 0.3s ease;
-}
-
-
-#header {
-  padding: 0 8px;
-  background-color: #000;
-  border-bottom: solid 1px #46a915;
-  width: 100%; 
-  height: 52px; 
-  color: #e6e6e6; 
-  position: fixed; 
-  top: 0; 
-  line-height: 52px; 
-  font-size: 16px;
-  z-index: 500;
-}
-
-#header a {
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#header a:hover {
-  text-decoration: underline;
-}
-
-#footer {
-  padding: 0 8px;
-  background-color: #000;
-  border-top: solid 1px #46a915;
-  width: 100%; 
-  height: 52px; 
-  color: #e6e6e6; 
-  line-height: 52px; 
-  font-size: 16px;
-  margin-top: 50px;
-  text-align: left;
-}
-
-#footer a {
-  color: #fff;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-#footer a:hover {
-  text-decoration: underline;
+  margin-top: 20px;
 }
 
 .logo {
   margin-bottom: 20px;
+  margin-left: 20px;
+  color: #fff;
+  text-align: left;
 }
 
 .button {
   margin: auto;
-  background: #fff;
-  border: solid 1px #ccc;
-  border-radius: 3px;
+  background: #46a915;
   cursor: pointer;
-  color: #252525;
+  color: #fff;
   font-size: 14px;
   font-weight: bold;
   margin-top: 20px;
@@ -90,8 +45,6 @@ body {
 }
 
 .button:hover {
-  color: #000;
-  border-color: #000;
 }
 
 .hidden {
@@ -110,18 +63,7 @@ body {
 
 .main-text {
   margin: auto;
-  padding-top: 60px;
   width: 800px;
-}
-
-.share {
-  border: solid 1px #ccc; 
-  margin: 6px auto; 
-  text-align: left; 
-  font-size: 15px; 
-  width: 400px; 
-  padding: 10px; 
-  height: 80px;
 }
 
 .hide {
@@ -129,15 +71,15 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    .main-text {
-        width: 100%;
-    }
-  
-    .install1 {
+  .main-text {
       width: 100%;
-    }
-  
-    .share {
-      width: 90%;
-    }
+  }
+
+  .install1 {
+    width: 100%;
+  }
+
+  .share {
+    width: 90%;
+  }
 }
