@@ -45,6 +45,7 @@ body {
 }
 
 .button:hover {
+  background: #50bd19;
 }
 
 .hidden {
